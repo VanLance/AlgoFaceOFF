@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class FaceoffConfig(AppConfig):
+class BattleConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
-    name = "faceOff"
+    name = "battle"
