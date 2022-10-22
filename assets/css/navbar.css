@@ -1,0 +1,22 @@
+body {
+    background-color: whitesmoke;
+    color: white;
+    margin: 0;
+    margin-top: -17px;
+}
+
+#ulnav {
+    background-color: salmon;
+    color: white;
+    /* margin-right: 100px; */
+}
+
+
+#ulnav {
+    display: flex;
+}
+
+li {
+    padding: 0 15px;
+    list-style-type: none;
+}
