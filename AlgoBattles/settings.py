@@ -84,7 +84,7 @@ DATABASES = {
         "ENGINE": "django.db.backends.postgresql",
         "NAME": "lsycabis",
         'USER': 'lsycabis',
-        'PASSWORD': 'Lqyuon7XnNTgTx45LrNo1z9eZunKV6wU',
+        'PASSWORD': os.eviron['DB_PASSWORD'],
         'HOST': 'peanut.db.elephantsql.com',
         'PORT': '5432'
     }
