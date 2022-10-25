@@ -82,7 +82,7 @@ WSGI_APPLICATION = "AlgoBattles.wsgi.application"
 DATABASES = {
     'default': {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "algo-face-off",
+        "NAME": "lsycabis",
         'USER': 'lsycabis',
         'PASSWORD': 'Lqyuon7XnNTgTx45LrNo1z9eZunKV6wU',
         'HOST': 'peanut.db.elephantsql.com',
