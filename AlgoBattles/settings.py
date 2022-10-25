@@ -109,7 +109,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = "en-us"
 
-TIME_ZONE = "CST"
+TIME_ZONE = "America/Chicago" # https://stackoverflow.com/questions/27182557/valueerror-incorrect-timezone-setting-while-migrating-manage-py-file-in-django
 
 USE_I18N = True
 
