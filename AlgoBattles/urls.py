@@ -19,7 +19,7 @@ from django.shortcuts import  render
 from .views import homepage
 
 urlpatterns = [
-    # path('', include('AlgoBattles.urls')),
-    path('battles/', include('battles.urls')),
+    # path('', include(AlgoBattles.urls)),
+    path('', include('battles.urls')),
     path('admin/', admin.site.urls),
 ]
