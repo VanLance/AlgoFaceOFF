@@ -1,6 +1,5 @@
 from django.http import HttpResponse
 from django.template import loader
-from django.shortcuts import render
 
 from .models import Problem
 
@@ -16,8 +15,3 @@ def algo(request):
     context = {'question':question}
     return HttpResponse(template.render(context,request))
 
-def land(request):
-      
-    # render function takes argument  - request
-    # and return HTML as response
-    return render(request, "../index.html")
